@@ -2,6 +2,7 @@ import React from 'react'
 import SidebarLeft from '@/components/sidebar-left'
 import SidebarRight from '@/components/sidebar-right'
 import { Paperclip, Send } from 'lucide-react'
+import { ChatPanel } from '@/components/chat-panel'
 
 const Chat = () => {
   return (
@@ -9,6 +10,7 @@ const Chat = () => {
       <div className="flex-shrink-0 w-40 overflow-hidden">
         <SidebarLeft />
       </div>
+      <ChatPanel/>
      <div className="flex-grow flex items-end justify-center mb-5">
         <div className="w-3/4 relative">
           <div className="absolute left-3 top-1/2 transform -translate-y-1/2">
